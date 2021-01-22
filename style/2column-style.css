@@ -1,0 +1,166 @@
+body {
+  background-color:#004F7C;
+  color:#fff;
+	font-family:  sans-serif;
+}
+.column {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+	.info {
+		margin-bottom: -25px;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+  ul{
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 90%;
+    height: auto;
+  }
+  li{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 40px;
+  }
+	p {
+		font-size: 1.2rem;
+	}
+  a{
+color: #fff;
+text-decoration: none;
+}
+
+a:hover{
+color: #808080;
+}
+
+a:active{
+color: #fff;
+}
+.cat1 {
+	background: url("../img/背景1.jpg") no-repeat top center;
+	background-size: contain;
+}
+.cat2 {
+}
+  .wrapper {
+    display: flex;
+}
+.map-img-area{
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.map img{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+}
+.link-li{
+  text-decoration: none;
+  display: flex;
+  margin: 0 auto;
+}
+.link-li li{
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+}
+
+.link-img-area{
+  display: flex;
+  padding: 20px 0;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.link-img1 {
+ margin: 0 auto;
+ cursor: pointer;
+ transition-duration: 0.3s;
+}
+.link-img1:hover img{
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+.link-img2 {
+  margin: 0 auto;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.link-img2:hover img{
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+@media (max-width:1400px)  {
+  .wrapper {
+    display: block;
+}
+.info {
+  margin-bottom: -240px;
+}
+
+.link-img-area{
+  display: block;
+  padding: 20px 0;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+.link-img1 {
+    margin: 0 auto;
+}
+
+.link-img2 {
+    margin: 0 auto;
+}
+}
+@media (max-width:700px)  {
+  .column {
+  	height: 76vh;
+  	width: 100%;
+  	text-align: center;
+  	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+  }
+  .wrapper {
+    display: block;
+}
+.info {
+  margin-top: auto;
+}
+
+.link-img-area{
+  display: block;
+  padding: 20px 0;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+.link-img1 {
+    margin: 0 auto;
+}
+
+.link-img2 {
+    margin: 0 auto;
+}
+h1 {
+  font-size: 2rem;
+}
+li{
+  font-size: 12px;
+  text-align: left;
+  margin-left: 40px;
+}
+}
